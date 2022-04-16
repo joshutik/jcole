@@ -33,10 +33,11 @@ p{
     list-style: none;
     align-items: center;
   }
-  /* .logo{
-    width: 40% !important;
-    height: 100%;
-  } */
+  .logo{
+width: 18rem;
+
+
+  }
   .navbar li {
     position: relative;
   }
@@ -44,7 +45,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 0 30px 30px;
+    /* padding: 0px 0 0px 0px; */
     font-family: "Raleway", sans-serif;
     font-size: 17px;
     font-weight: 600;
@@ -355,7 +356,7 @@ section {
   }
   .section-bg:before {
     content: "";
-    background-image:linear-gradient(rgba(40, 172, 212, 0.459), rgba(10, 96, 153, 0.472)), url(./Images/christina-wocintechchat-com-c6wbSBaYxkY-unsplash.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.591), rgba(0, 0, 0, 0.614)), url(./Images/christina-wocintechchat-com-c6wbSBaYxkY-unsplash.jpg);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -367,7 +368,7 @@ section {
   }
   .section-bg2:before {
     content: "";
-    background-image:linear-gradient(rgba(40, 172, 212, 0.459), rgba(10, 96, 153, 0.472)), url(./Images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.459), rgba(11, 12, 13, 0.472)), url(./Images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -520,21 +521,37 @@ section {
   footer ul li{
     list-style-type: none !important;
     text-decoration: none !important;
-    align-items: flex-start !important;
+    padding-left: 0rem !important;
+  
+    /* align-items: flex-start !important; */
   }
+  footer > a{
+    color: white !important;
+  }
+
+ /* color code #2c5a64, */
+  .bg-ft{
+    background-image:linear-gradient(#2c5a64, #2c5a64d8), url(./Images/istockphoto-480154013-612x612.jpg);
+    background-size: cover;
+  }
+
+  .carousel{
+    padding-top: 90px !important;
+  }
+  
+  
   
   
   .carousel-item {
-    width: 100%;
-    height: 90vh;
-    background-size: cover;
+    width: 100% !important;
+    height: 100vh !important;
+    background-size: cover !important;
+    background-position: center;
     background-repeat: no-repeat;
-    object-fit: cover;
-    object-position: center;
   }
-
+ 
   .slider-text{
-    padding-top: 80px;
+  padding-top: 23%;
   }
 
   .slide-title{
@@ -546,6 +563,10 @@ section {
       font-size: 50px;
 
     }
+    .slider-text{
+      padding-top: 30px;
+    }
+  
   }
 
   /* --------------------------------
@@ -583,6 +604,7 @@ section {
     top: 0px;
     bottom: 0px;
     width: 100%;
+    height: 30%;
     z-index: -10;
 }
 .company-heading h1 {
@@ -677,7 +699,7 @@ section {
 }
 .contact .info-box i {
   font-size: 32px;
-  color: #e03a3c;
+  color: #f19603;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f8d4d5;
@@ -702,7 +724,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #f19603;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -754,7 +776,7 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #e03a3c;
+  background: #e08d3a;
   border: 0;
   padding: 10px 32px;
   color: #fff;
@@ -780,4 +802,15 @@ section {
     transform: rotate(360deg);
   }
 }
+
+/* ---------------------------------------------------
+            job styling
+--------------------------------------------------- */
+.job-bg{
+  background-image: url(./Images/work.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
 
