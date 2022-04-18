@@ -34,7 +34,7 @@ p{
     align-items: center;
   }
   .logo{
-width: 18rem;
+width: 12rem;
 
 
   }
@@ -67,7 +67,7 @@ width: 18rem;
     left: 30px;
     top: calc(100% + 30px);
     margin: 0;
-    padding: 10px 0;
+    padding: 8px 0;
     z-index: 99;
     opacity: 0;
     visibility: hidden;
@@ -294,12 +294,12 @@ width: 18rem;
   /* -----------------------------------------------
                   carousel-item
   ----------------------------------------------- */
-  .carousel-item  {
+  /* .carousel-item  {
     background-size: cover !important;
     background-position: center;
     height: auto;
 
-  }
+  } */
 
 /* .header{
     background-image:url(./Images/dommy-img.jpg);
@@ -525,8 +525,17 @@ section {
   
     /* align-items: flex-start !important; */
   }
-  footer > a{
-    color: white !important;
+
+  #footer ul a {
+    padding-right: 2px;
+    color: white;
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  #footer ul a:hover {
+    text-decoration: none !important;
+    color: rgb(35, 21, 169) !important;
   }
 
  /* color code #2c5a64, */
@@ -535,18 +544,13 @@ section {
     background-size: cover;
   }
 
-  .carousel{
-    padding-top: 90px !important;
-  }
-  
-  
-  
+ 
   
   .carousel-item {
     width: 100% !important;
     height: 100vh !important;
     background-size: cover !important;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
   }
  
@@ -621,6 +625,7 @@ section {
     font-size: 65px;
     margin-bottom: 20px;
 }
+
 
 
 
