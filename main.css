@@ -58,9 +58,9 @@ width: 12rem;
     line-height: 0;
     margin-left: 5px;
   }
-  .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-    color: #e03a3c;
-  }
+  /* .navbar-link a:hover, .navbar-link .active:focus, .navbar-link li:hover > a {
+    color: #3a4de0;
+  } */
   .navbar .dropdown ul {
     display: block;
     position: absolute;
@@ -86,7 +86,7 @@ width: 12rem;
     font-size: 12px;
   }
   .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-    color: #e03a3c;
+    color: #2c5a64;
   }
   .navbar .dropdown:hover > ul {
     opacity: 1;
@@ -306,13 +306,13 @@ width: 12rem;
     background-position: center;
     background-size: cover;
     height:70vh;
-}
-.header-services{
+}*/
+ .header-services{
     background-image:url(./Images/pakata-goh-EJMTKCZ00I0-unsplash.jpg);
     background-position: center;
     background-size: cover;
     height:70vh;
-} */
+} 
 
 /*--------------------------------------------------------------
 # Sections General
@@ -514,6 +514,20 @@ section {
     transition: 0.4s ease-in-out;
   }
 
+  .card{
+    border-radius: 30px !important;
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    transition: 0.4s ease-in-out !important;
+    
+  }
+
+  .card > img{
+    height: 15rem !important;
+    
+  }
+
   .who-bd-3:hover{
  transform: scale(1.1);
   }
@@ -521,7 +535,6 @@ section {
   footer ul li{
     list-style-type: none !important;
     text-decoration: none !important;
-    padding-left: 0rem !important;
   
     /* align-items: flex-start !important; */
   }
@@ -535,7 +548,7 @@ section {
 
   #footer ul a:hover {
     text-decoration: none !important;
-    color: rgb(35, 21, 169) !important;
+    color: rgb(9, 1, 80) !important;
   }
 
  /* color code #2c5a64, */
@@ -552,6 +565,7 @@ section {
     background-size: cover !important;
     /* background-position: center; */
     background-repeat: no-repeat;
+    object-fit: cover;
   }
  
   .slider-text{
@@ -568,7 +582,7 @@ section {
 
     }
     .slider-text{
-      padding-top: 30px;
+      padding-top: 10px;
     }
   
   }

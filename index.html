@@ -33,9 +33,9 @@
 
 <body>
     <!-- nav-bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light  p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-0">
         <div class="container-fluid text-danger">
-            <a href="index.html" class=" me-auto"><img class="logo" src="./Images/logo.jpg"  alt=""></a>
+            <a href="index.html" class=" me-auto"><img class="logo" src="./Images/logo.jpg" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -46,10 +46,11 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="true">
                             Services
-                          </a>
+                        </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Recruitment</a></li>
                             <li><a class="dropdown-item" href="#">Staff Augmentation/ Contract Staffing</a></li>
@@ -59,7 +60,18 @@
                             <li><a class="dropdown-item" href="#">Background Checks and Verification</a></li>
                             <li><a class="dropdown-item" href="#">Employee Handbook and policies</a></li>
                         </ul>
-                    </li>
+                    </li> -->
+                    <li class="dropdown"><a href="./services.html"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                          <li><a href="">Recruitment</a></li>
+                          <li><a href="#">Staff Augmentation/ Contract Staffing</a></li>
+                          <li><a href="#">Tailored Staff Training</a></li>
+                          <li><a href="#">HR Advisory for Startups</a></li>
+                          <li><a href="#">HR Audit</a></li>
+                          <li><a href="#">Background Checks and Verification</a></li>
+                          <li><a href="#">Employee Handbook and policies</a></li>
+                        </ul>
+                      </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="job.html">Jobs</a>
                     </li>
@@ -78,58 +90,65 @@
         </div>
     </nav>
     <!-- end of nav-bar -->
-    
+
     <!-- header -->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active " style="width: 100%; object-fit: cover; background-image:linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.6)),url(./Images/slider\ 3.jpg)">
+            <div class="carousel-item active "
+                style="width: 100%; object-fit: cover; background-image:linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.6)),url(./Images/slider\ 3.jpg)">
                 <div class="slider-content">
                     <div class="container h-100">
-                      <div class="row align-items-center h-100">
-                          <div class="col-md-12 text-center text-light slider-text">
-                            <h2 class="slide-title" data-animation-in="slideInLeft">Your Expert Assisting in Hiring From Nigeria And Globally</h2>
-                            <h3 class="slide-sub-title" data-animation-in="slideInRight">Recruitment Industry</h3>
-                            <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                                <!-- <a href="services.html" class="slider btn btn-primary">Our Services</a>
+                        <div class="row align-items-center h-100">
+                            <div class="col-md-12 text-center text-light slider-text">
+                                <h2 class="slide-title" data-animation-in="slideInLeft">Your Expert Assisting in Hiring
+                                    From Nigeria And Globally</h2>
+                                <h3 class="slide-sub-title" data-animation-in="slideInRight">Recruitment Industry</h3>
+                                <p data-animation-in="slideInLeft" data-duration-in="1.2">
+                                    <!-- <a href="services.html" class="slider btn btn-primary">Our Services</a>
                                 <a href="contact.html" class="slider btn btn-primary border">Contact Now</a> -->
-                            </p>
-                          </div>
-                      </div>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item " style="background-image:linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.6)),url(./Images/lady-slider.jpg)">
+            <div class="carousel-item "
+                style="background-image:linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.6)),url(./Images/lady-slider.jpg)">
                 <!-- <img src="./Images/johannes-plenio-2QUvkQTBh5s-unsplash.jpg" class="d-block w-100" alt="..."> -->
                 <div class="slider-content text-left">
                     <div class="container h-100">
-                      <div class="row align-items-center h-100">
-                          <div class="col-md-12 text-light text-center slider-text">
-                            <h2 class="slide-title-box slide-title" data-animation-in="slideInDown"> Hire top Talent From Anywhere To Join your Team </h2>
-                            <!-- <h3 class="slide-title" data-animation-in="fadeIn">When Service Matters</h3> -->
-                            <h3 class="slide-sub-title" data-animation-in="slideInLeft">Your Choice is Simple</h3>
-                            <p data-animation-in="slideInRight">
-                                <!-- <a href="services.html" class="slider btn btn-primary border">Our Services</a> -->
-                            </p>
-                          </div>
-                      </div>
+                        <div class="row align-items-center h-100">
+                            <div class="col-md-12 text-light text-center slider-text">
+                                <h2 class="slide-title-box slide-title" data-animation-in="slideInDown"> Hire top Talent
+                                    From Anywhere To Join your Team </h2>
+                                <!-- <h3 class="slide-title" data-animation-in="fadeIn">When Service Matters</h3> -->
+                                <h3 class="slide-sub-title" data-animation-in="slideInLeft">Your Choice is Simple</h3>
+                                <p data-animation-in="slideInRight">
+                                    <!-- <a href="services.html" class="slider btn btn-primary border">Our Services</a> -->
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" style="background-image:linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.6)), url(./Images/team.jpg)" >
+            <div class="carousel-item"
+                style="background-image:linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.6)), url(./Images/team.jpg)">
                 <!-- <img src="./Images/karsten-wurth-7BjhtdogU3A-unsplash.jpg" class="d-block w-100" alt="..."> -->
                 <div class="slider-content text-right">
                     <div class="container h-100">
-                      <div class="row align-items-center h-100">
-                          <div class="col-md-12 text-light text-center slider-text">
-                            <!-- <h2 class="slide-title" data-animation-in="slideInDown">Meet Our Engineers</h2> -->
-                            <h3 class="slide-sub-title slide-title" data-animation-in="fadeIn">Grow Your Company With The Best HR Services</h3>
-                            <p class="slider-description lead" data-animation-in="slideInRight">We will deal with your failure that determines how you achieve success.</p>
-                            <!-- <div data-animation-in="slideInLeft">
+                        <div class="row align-items-center h-100">
+                            <div class="col-md-12 text-light text-center slider-text">
+                                <!-- <h2 class="slide-title" data-animation-in="slideInDown">Meet Our Engineers</h2> -->
+                                <h3 class="slide-sub-title slide-title" data-animation-in="fadeIn">Grow Your Company
+                                    With The Best HR Services</h3>
+                                <p class="slider-description lead" data-animation-in="slideInRight">We will deal with
+                                    your failure that determines how you achieve success.</p>
+                                <!-- <div data-animation-in="slideInLeft">
                                 <a href="contact.html" class="slider btn btn-primary" aria-label="contact-with-us">Get Free Quote</a>
                                 <a href="about.html" class="slider btn btn-primary border" aria-label="learn-more-about-us">Learn more</a>
                             </div> -->
-                          </div>
-                      </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -148,8 +167,8 @@
 
     <div class="container-fluid mt-5">
         <div class="text-center container">
-            <h4 class="text-center text-white mb-5"><span class=" p-2 rounde     d-3">J-Coleson Consulting</span>
-            </h4>
+            <!-- <h4 class="text-center mb-5"><span class=" p-2 rounded-3">J-Coleson Consulting</span>
+            </h4> -->
             <h1>Who Are We.</h1>
             <div class="row">
                 <div class="col-lg-12 col-md-12 p-3">
@@ -180,56 +199,29 @@
             </div>
         </div>
     </div>
-    <div class="container pt-5 mt-5">
+    <!-- <div class="container pt-5 mt-5">
         <h1 class="text-center text-white mb-3"><span class="bg-primary p-2 rounded-3">About J-Coleson</span></h1>
-    </div>
-<!-- ======= About Section ======= -->
-<section id="about" class="about section-bg">
-    <div class="container" data-aos="fade-up">
-        <div class="row no-gutters">
-            <div class="content col-xl-12 d-flex align-items-stretch">
-                <div class="content text-white">
-                    <h3 class="fs-1">J-Coleson Consulting</h3>
-                    <p class="fs-5">
-                        J-Coleson Consulting is an HR firm that is established to go beyond borders and simplify a
-                        company’s HR processes, we are focused on tech and c-suite recruitment, tailored training,
-                        HR Audit, HR Advisory, Background checks and verification, and Employee handbook.
-                    </p>
-                    <a href="#" class="about-btn"><span>About us</span> <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
-            <!-- <div class="col-xl-7 d-flex align-items-stretch">
-                <div class="icon-boxes d-flex flex-column justify-content-center">
-                    <div class="row">
-                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <i class="bx bx-receipt"></i>
-                            <h4></h4>
-                            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
-                            </p>
-                        </div>
-                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                            <i class="bx bx-cube-alt"></i>
-                            <h4>Ullamco laboris nisi</h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            </p>
-                        </div>
-                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                            <i class="bx bx-images"></i>
-                            <h4>Labore consequatur</h4>
-                            <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                        </div>
-                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                            <i class="bx bx-shield"></i>
-                            <h4>Beatae veritatis</h4>
-                            <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                        </div>
-                    </div> -->
-        </div><!-- End .content-->
-    </div>
-    </div>
+    </div> -->
 
-    </div>
-</section><!-- End About Section -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+        <div class="container" data-aos="fade-up">
+            <div class="row no-gutters">
+                <div class="content col-xl-12 d-flex align-items-stretch">
+                    <div class="content text-white">
+                        <h3 class="fs-1">J-Coleson Consulting</h3>
+                        <p class="fs-5">
+                            J-Coleson Consulting is an HR firm that is established to go beyond borders and simplify a
+                            company’s HR processes, we are focused on tech and c-suite recruitment, tailored training,
+                            HR Audit, HR Advisory, Background checks and verification, and Employee handbook.
+                        </p>
+                        <a href="#" class="about-btn"><span>About us</span> <i class="bx bx-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div><!-- End .content-->
+        </div>
+    </section><!-- End About Section -->
+
     <div class="container-fluid mt-5 mb-5">
         <div class="row">
             <div class="col-md-6">
@@ -248,9 +240,9 @@
             </div>
         </div>
     </div>
-    <div class="container pt-5 mt-5">
+    <!-- <div class="container pt-5 mt-5">
         <h1 class="text-center text-white mb-5"><span class="bg-primary p-2 rounded-3">Solution for business</span></h1>
-    </div>
+    </div> -->
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
         <div class="container">
@@ -344,17 +336,9 @@
         </div>
     </section>
     <!-- End Testimonials Section -->
-
-
-
-
-
-
-
-
     <div class="container d-flex justify-content-center mb-5">
 
-        <div class="col-lg-6 mt-5 mt-lg-0">
+        <div class="col-lg-6 mt-5 mt-lg-0 ml-sm-5">
 
             <h3 class="column-title text-center m-5">OUR CLIENTS</h3>
 
@@ -478,7 +462,7 @@
 
     <!-- footer -->
     <footer id="footer" class="container-fluid bg-ft ">
-        <div class="container-fluid">
+        <div class="container-fluid mt-5 p-5">
             <div class="row">
                 <div class="col-md-3 col-sm-3 p-3">
                     <h5 class="text-uppercase mb-4 fw-bold text-white">OFFICE</h5>
@@ -541,7 +525,7 @@
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-3 p-3">
-                    <h5 class="text-uppercase text-white fw-bolder">Support Center</h5>
+                    <h5 class="text-uppercase text-white pb-4 fw-bolder">Support Center</h5>
                     <ul class="p-0">
                         <li><a href="">FAQ</a></li>
                         <li><a href="">Help line</a></li>
@@ -578,6 +562,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </footer>
 
