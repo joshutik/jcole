@@ -525,7 +525,7 @@ section {
   .card{
     border-radius: 30px !important;
     width: 100% !important;
-    height: 100% !important;
+    height: auto !important;
   }
 
 
@@ -573,7 +573,7 @@ section {
     height: 100vh !important;
     background-size: cover !important;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: right;
   }
  
   .slider-text{
@@ -593,6 +593,7 @@ section {
     }
     .slider-text{
       padding-top: 10px;
+      padding-bottom: 50px;
     }
   
   }
