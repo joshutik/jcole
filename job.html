@@ -22,10 +22,10 @@
     <link rel="stylesheet" href="style.css"></head>
 
 <body>
-    <!-- nav-bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- nav-bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-0">
         <div class="container-fluid text-danger">
-            <a href="index.html" class=" me-auto"><img class="logo" src="./Images/logo.jpg" alt="logo"></a>
+            <a href="index.html" class=" me-auto"><img class="logo" src="./Images/logo.jpg" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -36,9 +36,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="true">
                             Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -50,9 +50,20 @@
                             <li><a class="dropdown-item" href="#">Background Checks and Verification</a></li>
                             <li><a class="dropdown-item" href="#">Employee Handbook and policies</a></li>
                         </ul>
-                    </li>
+                    </li> -->
+                    <li class="dropdown"><a href="./services.html"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                          <li><a href="">Recruitment</a></li>
+                          <li><a href="#">Staff Augmentation/ Contract Staffing</a></li>
+                          <li><a href="#">Tailored Staff Training</a></li>
+                          <li><a href="#">HR Advisory for Startups</a></li>
+                          <li><a href="#">HR Audit</a></li>
+                          <li><a href="#">Background Checks and Verification</a></li>
+                          <li><a href="#">Employee Handbook and policies</a></li>
+                        </ul>
+                      </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="job.html">Job</a>
+                        <a class="nav-link active" aria-current="page" href="job.html">Jobs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
@@ -62,12 +73,13 @@
                     </li>
 
                 </ul>
-                <form class="d-flex">
-                    <button class="btn btn-outline-primary me-5" type="submit">Let's Talk</button>
+                <form class="d-flex mobile-nav-toggle">
+                    <button class="btn btn-outline-primary me-5 mx-sm-auto" type="submit">Let's Talk</button>
                 </form>
             </div>
         </div>
-    </nav> <!-- <======= end of nav bar ==========> -->
+    </nav>
+    <!-- end of nav-bar -->
     <div class="container-fluid">
         <div class="ct-pageWrapper" id="ct-js-wrapper">
             <section class="company-heading intro-type" id="parallax-one">
@@ -360,7 +372,7 @@
         <div class="container mt-4">
             <div class="row align-item-left">
                 <div class="col-md-9 col-lg-8 pt-3">
-                    <p>
+                    <p class="text-white">
                         copyright@2022 All rights reserved by:
                         <a href="#">
                             <strong>JC</strong>
